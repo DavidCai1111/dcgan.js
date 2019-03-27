@@ -1,5 +1,5 @@
 'use strict'
-require('@tensorflow/tfjs-node')
+require('@tensorflow/tfjs-node-gpu')
 const { train } = require('./lib/train')
 
 ;(async function () {
