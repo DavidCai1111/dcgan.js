@@ -11,7 +11,7 @@ Node.js implementation of Deep Convolutional Generative Adversarial Networks
 
 ### Train
 
-```
+```js
 node dcgan.js train --epoch <epoch> --batchSize <batchSize> [--gpu]
 // Example: node dcgan.js train --epoch 100 --batchSize 128 --gpu
 ```
